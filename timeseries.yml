@@ -1,0 +1,32 @@
+name: timeseries
+channels:
+  - plotly
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+channel_priority: flexible
+dependencies:
+  - optuna
+  - ipywidgets
+  - prophet
+  - sktime
+  - pandas
+  - polars
+  - ipython
+  - jupyterlab
+  - pytorch
+  - pytorch-cuda
+  - jupyter-dash
+  - plotly
+  - jupyter-collaboration
+  - python-kaleido
+  - tensorflow-gpu
+  - lightgbm
+  - xgboost
+  - tensorflow-probability
+  - pip:
+    - neuralprophet
+    - meteostat
+    - plotly-resampler
+    - arch
